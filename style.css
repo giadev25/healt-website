@@ -13,7 +13,7 @@ body {
 }
 
 .content .container {
-	margin-top: 13rem;
+	margin-top: 5vmax;
 }
 
 .sign-up-button {
@@ -26,10 +26,15 @@ body {
 	width: 57vmin;
 }
 
+
 @media (min-width: 993px) {
-		.container .navbar-nav .garis-vetical {
+	.container .navbar-nav .garis-vetical {
 		width: 2px;
 		height: 35px;
 		background-color: #d9d8dc;
+	}
+
+	.content .container {
+		margin-top: 7vmax;
 	}
 }
