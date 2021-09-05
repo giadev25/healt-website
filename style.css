@@ -1,0 +1,35 @@
+body {
+	background-color: #f1f6ff;
+}
+
+.container a.navbar-brand {
+	text-transform: uppercase;
+	color: #707070;
+}
+
+.container .navbar-nav a.nav-link {
+	text-transform: uppercase;
+	margin-right: 2rem;	
+}
+
+.content .container {
+	margin-top: 13rem;
+}
+
+.sign-up-button {
+	box-shadow: 0 10px 20px #83cafc;
+	background-color: #0095ff;
+	border: none;
+}
+
+.banner-image {
+	width: 57vmin;
+}
+
+@media (min-width: 993px) {
+		.container .navbar-nav .garis-vetical {
+		width: 2px;
+		height: 35px;
+		background-color: #d9d8dc;
+	}
+}
