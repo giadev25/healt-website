@@ -1,40 +1,54 @@
 body {
-	background-color: #f1f6ff;
+    background-color: #f1f6ff;
 }
 
 .container a.navbar-brand {
-	text-transform: uppercase;
-	color: #707070;
+    text-transform: uppercase;
+    color: #707070;
 }
 
 .container .navbar-nav a.nav-link {
-	text-transform: uppercase;
-	margin-right: 2rem;	
+    text-transform: uppercase;
+    margin-right: 2rem;
 }
 
 .content .container {
-	margin-top: 5vmax;
+    margin-top: 5vmax;
 }
 
 .sign-up-button {
-	box-shadow: 0 10px 20px #83cafc;
-	background-color: #0095ff;
-	border: none;
+    box-shadow: 0 10px 20px #83cafc;
+    background-color: #0095ff;
+    border: none;
 }
 
 .banner-image {
-	width: 57vmin;
+    width: 57vmin;
 }
 
-
 @media (min-width: 993px) {
-	.container .navbar-nav .garis-vetical {
-		width: 2px;
-		height: 35px;
-		background-color: #d9d8dc;
-	}
+    .container .navbar-nav .garis-vetical {
+        width: 2px;
+        height: 35px;
+        background-color: #d9d8dc;
+    }
+    .content .container {
+        margin-top: 7vmax;
+    }
+}
 
-	.content .container {
-		margin-top: 7vmax;
-	}
+@media (min-width: 280px) and (max-width: 670px) {
+    #kanan {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 10%;
+        display: block;
+    }
+    #kanan img {
+        width: 100%;
+    }
+    #kiri {
+        margin: 60% 0 0 0;
+    }
 }
